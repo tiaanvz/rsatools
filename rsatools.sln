@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenRsa", "GenRsa\GenRsa.csproj", "{25F9DB1B-FE64-4B41-9A30-1FC134E7A8BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decrypt", "Decrypt\Decrypt.csproj", "{0C24F6B7-ABA2-4A5B-9951-4D8220509E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encrypt", "Encrypt\Encrypt.csproj", "{F6F7DD77-F728-40FE-8231-7170BF5D1613}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25F9DB1B-FE64-4B41-9A30-1FC134E7A8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F9DB1B-FE64-4B41-9A30-1FC134E7A8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F9DB1B-FE64-4B41-9A30-1FC134E7A8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F9DB1B-FE64-4B41-9A30-1FC134E7A8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C24F6B7-ABA2-4A5B-9951-4D8220509E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C24F6B7-ABA2-4A5B-9951-4D8220509E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C24F6B7-ABA2-4A5B-9951-4D8220509E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C24F6B7-ABA2-4A5B-9951-4D8220509E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F7DD77-F728-40FE-8231-7170BF5D1613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F7DD77-F728-40FE-8231-7170BF5D1613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F7DD77-F728-40FE-8231-7170BF5D1613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F7DD77-F728-40FE-8231-7170BF5D1613}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7653068-51D6-4D13-92E4-DA1938B8828B}
+	EndGlobalSection
+EndGlobal
