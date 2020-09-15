@@ -8,7 +8,7 @@ namespace Decrypt {
         static void Main(string[] args) {
             string enc;
             try {
-                enc = args[1];
+                enc = args[0];
             } catch (IndexOutOfRangeException) {
                 Console.WriteLine("Encrypt.exe <data>");
                 return;
